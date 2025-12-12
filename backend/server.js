@@ -29,10 +29,6 @@ dotenv.config();
 const FRONTEND_ORIGIN =
   process.env.FRONTEND_URL || 'http://localhost:5173';
 
-if (process.env.NODE_ENV !== 'test') {
-  connectDB();
-}
-
 const app = express();
 
 // ======================
@@ -68,24 +64,11 @@ app.use(mongoSanitize());
 app.use(xssClean());
 
 // ======================
-// ❌ RATE LIMITER REMOVED COMPLETELY
-// ======================
-
-// (No authLimiter, no rateLimit imports)
-
-// ======================
 // 🚏 Routes
 // ======================
-
-// ❌ Removed: app.use('/api/users', authLimiter, userRoutes);
-// ❌ Removed: app.use('/api/otp', authLimiter, otpRoutes);
-// ❌ Removed: app.use('/api/payments', authLimiter, paymentRoutes);
-
-// Normal routes
 app.use('/api/users', userRoutes);
 app.use('/api/otp', otpRoutes);
 app.use('/api/payments', paymentRoutes);
-
 app.use('/api/products', productRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/orders', orderRoutes);
@@ -100,11 +83,21 @@ app.use((req, res) => {
   return res.status(404).json({ message: 'Route not found.' });
 });
 
+// ======================
+// 🚀 Start Server ONLY After DB Connects
+// ======================
 const PORT = process.env.PORT || 5000;
+
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
-  });
+  connectDB()
+    .then(() => {
+      app.listen(PORT, () => {
+        console.log(`🚀 Server running on port ${PORT}`);
+      });
+    })
+    .catch((err) => {
+      console.error('❌ Failed to start server:', err);
+    });
 }
 
 export default app;
