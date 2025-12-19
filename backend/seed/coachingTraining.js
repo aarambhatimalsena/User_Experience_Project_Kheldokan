@@ -1,0 +1,226 @@
+// seed/coachingTraining.js
+
+export const coachingTrainingProducts = [
+  // ================================
+  //           NIKE (5)
+  // ================================
+  {
+    name: "Nike Agility Cone Set",
+    description: "Set of 20 durable agility cones for footwork, speed, and spacing drills.",
+    category: "Coaching & Training",
+    brand: "Nike",
+    price: 2500,
+    originalPrice: 3200,
+    discountPercent: 22,
+    stock: 40,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609660/e09901e6-5db3-4543-99b3-8861d476a69b.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609758/78af4a1d-e332-46e9-a0a4-253f00aa6955.png" },
+      
+    ],
+  },
+  {
+    name: "Nike Pro Speed Ladder",
+    description: "Flat speed ladder designed for elite-level quickness and coordination drills.",
+    category: "Coaching & Training",
+    brand: "Nike",
+    price: 4200,
+    originalPrice: 4900,
+    discountPercent: 14,
+    stock: 30,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609794/ecff5bf7-de6c-4dde-9e78-ccf28fb8367f.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609798/d2253075-ab68-4541-b1cb-bf9e0ff558fc.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609806/fc50d964-bf0c-4f7a-9408-e385f8e172d8.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763609811/ca0f8516-a515-4eb4-a7f0-48bdb435ac34.png" },
+    ],
+  },
+  {
+    name: "Nike Elite Resistance Bands Set",
+    description: "Multi-resistance band bundle for strength, mobility, and jump training.",
+    category: "Coaching & Training",
+    brand: "Nike",
+    price: 3800,
+    originalPrice: 4600,
+    discountPercent: 17,
+    stock: 35,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610082/6d959d3b-0382-4ab8-9d77-f621a7cc0fae.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610086/6f351875-4b3d-4d25-8b61-0e517eb44b68.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610091/05d2e5b0-6d16-4b46-8a9e-87d1fcee985a.png" },
+    ],
+  },
+  {
+    name: "Nike Shooting Sleeve Pro",
+    description: "Compression shooting sleeve for better arm stability and sweat control.",
+    category: "Coaching & Training",
+    brand: "Nike",
+    price: 2200,
+    originalPrice: 2700,
+    discountPercent: 19,
+    stock: 50,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610222/c2eb06ce-172c-4de8-bf8e-3d30598ceeee.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610275/735e2cc9-d27f-4b22-83a0-56691177e4f3.png" },
+    ],
+  },
+  {
+    name: "Nike Dribble Control Trainer",
+    description: "Weighted dribbling training ball for improving handle and ball control.",
+    category: "Coaching & Training",
+    brand: "Nike",
+    price: 5200,
+    originalPrice: 6100,
+    discountPercent: 15,
+    stock: 24,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610367/66aa2491-3722-47f0-8471-61fa0ab74224.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610401/74369e92-12a3-4a41-9c99-76c95e7b2b16.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610435/cc3455a1-af67-4ee6-9f89-5af8fd9e6947.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610543/7e9887db-04b5-4b6c-8a51-374b2235438c.png" },
+    ],
+  },
+
+  // ================================
+  //           ADIDAS (5)
+  // ================================
+  {
+    name: "Adidas Elite Jump Rope",
+    description: "Adjustable speed rope for conditioning, coordination, and footwork.",
+    category: "Coaching & Training",
+    brand: "Adidas",
+    price: 1800,
+    originalPrice: 2300,
+    discountPercent: 22,
+    stock: 45,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610577/e4be1f5d-823e-4fbb-ad9a-aa1581d62ec8.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610588/b5dff006-03ea-4006-80de-dd5c265435aa.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610595/70dd368e-8267-4baa-b0bd-acd48a049b67.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763610629/8139a7ef-343e-4329-9398-7b8b18966589.png" },
+    ],
+  },
+  {
+    name: "Adidas Coaching Clipboard",
+    description: "Double-sided magnetic coaching board with full and half-court layouts.",
+    category: "Coaching & Training",
+    brand: "Adidas",
+    price: 3200,
+    originalPrice: 3800,
+    discountPercent: 16,
+    stock: 28,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854832/aecd389d-6f77-4fc4-9088-eceaff9ee7b5.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854837/c805368f-f049-4cde-a6b2-4dc459338407.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854842/0df0d36e-2c15-423e-b525-b4b560a0bfa4.png" },
+    ],
+  },
+  {
+    name: "Adidas Training Bib Set",
+    description: "Reversible mesh training bibs for team scrimmages and drills.",
+    category: "Coaching & Training",
+    brand: "Adidas",
+    price: 4500,
+    originalPrice: 5200,
+    discountPercent: 13,
+    stock: 32,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854720/9362929f-d978-4ac0-97d8-b35952116370.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854768/910d9566-15cb-4efc-8ac9-1fea64694fdf.png" },
+    ],
+  },
+  {
+    name: "Adidas Coach Whistle & Lanyard",
+    description: "High-pitch metal whistle with durable lanyard for game and practice use.",
+    category: "Coaching & Training",
+    brand: "Adidas",
+    price: 900,
+    originalPrice: 1300,
+    discountPercent: 31,
+    stock: 60,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854527/fa98342d-485d-4378-b39e-fcb9e89483c8.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854544/3ae8314e-0203-44ac-9395-1bf7bbc4e3f5.png" },
+    ],
+  },
+
+  // ================================
+  //           SPALDING (5)
+  // ================================
+  {
+    name: "Spalding Court Cone & Disc Kit",
+    description: "Complete set with cones and flat discs for multi-purpose court drills.",
+    category: "Coaching & Training",
+    brand: "Spalding",
+    price: 3900,
+    originalPrice: 4700,
+    discountPercent: 17,
+    stock: 30,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763611806/e2eedd6c-2b40-4dbd-8f57-dd46b05801e6.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763611814/964aae07-128a-4367-8978-55983628d275.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763611818/911c718c-1504-4193-a761-30796cfaa98b.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763611821/ca5c1865-d62b-404a-891c-dbcaea2201cb.png" },
+    ],
+  },
+  {
+    name: "Spalding Court Dry Erase Board",
+    description: "Large dry erase coaching board with markers for timeouts and huddles.",
+    category: "Coaching & Training",
+    brand: "Spalding",
+    price: 3400,
+    originalPrice: 4100,
+    discountPercent: 17,
+    stock: 27,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613937/7baeecd6-c4a6-4e18-8edc-d0760bc07124.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613949/2531dc34-86d6-4da5-b9d9-b0765cb0d48a.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613956/98fabe08-c56e-4f6b-8c9b-e3d7af6536c6.png" },
+    ],
+  },
+  {
+    name: "Spalding Coach Stopwatch",
+    description: "Digital stopwatch with lap timing, ideal for conditioning sessions.",
+    category: "Coaching & Training",
+    brand: "Spalding",
+    price: 1700,
+    originalPrice: 2100,
+    discountPercent: 19,
+    stock: 36,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854951/d3db7ed1-4f48-44d8-9fcc-e54824e4063f.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854958/d99ee54b-e504-42e9-aa02-93df4ce79b7f.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1764854961/a8741de2-6a4a-4114-b9fc-62258d15e02e.png" },
+    ],
+  },
+  {
+    name: "Spalding Team Water Bottle Rack",
+    description: "Metal rack with 8 squeeze bottles for benches and timeouts.",
+    category: "Coaching & Training",
+    brand: "Spalding",
+    price: 4200,
+    originalPrice: 5000,
+    discountPercent: 16,
+    stock: 25,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763612156/e4732726-8b9d-46ed-b736-6e65dbbfd5b6.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763612166/30764559-a3d4-4ba1-9cad-9bbbc7d74340.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763612183/30d26013-ad55-48c1-a38f-8d7462dec440.png" },
+    ],
+  },
+  {
+    name: "Spalding Practice Ball Storage Cart",
+    description: "Foldable storage cart that holds up to 15 basketballs for practice sessions.",
+    category: "Coaching & Training",
+    brand: "Spalding",
+    price: 10500,
+    originalPrice: 12200,
+    discountPercent: 14,
+    stock: 14,
+    image: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613443/15c8d222-5338-40d3-9808-1e63f4aae3c9.png",
+    images: [
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613462/decaaf35-cfe7-44c5-8745-aa8e782cf3e2.png" },
+      { url: "https://res.cloudinary.com/dprenqgxs/image/upload/v1763613474/abfb3ff3-1d70-4fbc-b5a6-6c221b9d84b4.png" },
+    ],
+  },
+];
