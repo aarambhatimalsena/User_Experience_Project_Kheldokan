@@ -12,7 +12,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-import logo from "../assets/KalamKart-logo.png";
+import logo from "../assets/Kheldokan-logo.png";
 
 const AdminSidebar = () => {
   const [collapsed, setCollapsed] = useState(false);
